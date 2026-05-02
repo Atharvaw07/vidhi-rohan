@@ -26,10 +26,32 @@ function App() {
     const [audioPlaying, setAudioPlaying] = useState(false);
     const [showModal, setShowModal] = useState(false);
     const audioRef = useRef(null);
+    // Tracks whether audio was playing right before the tab was hidden
+    const wasPlayingRef = useRef(false);
 
     useEffect(() => {
         document.body.style.overflow = 'hidden';
     }, []);
+
+    // Pause on tab hide, resume on tab return (only if it was playing when hidden)
+    useEffect(() => {
+        const handleVisibilityChange = () => {
+            if (!audioRef.current) return;
+            if (document.hidden) {
+                wasPlayingRef.current = audioPlaying;
+                if (audioPlaying) {
+                    audioRef.current.pause();
+                }
+            } else {
+                if (wasPlayingRef.current) {
+                    audioRef.current.play();
+                }
+            }
+        };
+
+        document.addEventListener('visibilitychange', handleVisibilityChange);
+        return () => document.removeEventListener('visibilitychange', handleVisibilityChange);
+    }, [audioPlaying]);
 
     // Initialize GSAP scroll reveal once main content is shown
     useEffect(() => {
