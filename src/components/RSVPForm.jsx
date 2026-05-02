@@ -3,7 +3,7 @@ import { useState, useRef } from 'react';
 const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxmvYg3N81Qyn9JS8D2IaARiQK3URozKZYqOGqs81E5b6aX_vsAcNqgaOr6r0EuNiTl8Q/exec';
 
 export default function RSVPForm({ onSuccess }) {
-    const [btnText, setBtnText] = useState('Confirm Attendance');
+    const [btnText, setBtnText] = useState('Submit');
     const [loading, setLoading] = useState(false);
     const formRef = useRef(null);
 
@@ -88,10 +88,10 @@ export default function RSVPForm({ onSuccess }) {
     };
 
     return (
-        <section id="rsvp-section" className="rsvp-section" style={{ background: 'var(--white)', padding: '5rem 1.5rem', position: 'relative' }}>
+        <section id="rsvp-section" className="rsvp-section" style={{ background: 'var(--white)', padding: '5rem 1.5rem 5rem', position: 'relative' }}>
             <div className="reveal" style={{ textAlign: 'center', marginBottom: '3rem' }}>
                 <p style={{ fontFamily: "'Great Vibes', cursive", fontSize: 'clamp(2.5rem, 8vw, 3.5rem)', color: 'var(--maroon)', marginBottom: '0.5rem', lineHeight: 1.2 }}>
-                    Confirm Your Attendance
+                    RSVP
                 </p>
             </div>
 

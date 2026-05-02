@@ -454,7 +454,8 @@ img.lazy-image.loaded {
 .dc-frame-box {
     position: relative;
     flex-shrink: 0;
-    width: clamp(190px, 52vw, 260px);
+    /* width: clamp(190px, 52vw, 260px); */
+    width: clamp(150px, 45vw, 220px);
     aspect-ratio: 384 / 456;
 }
 

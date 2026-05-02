@@ -10,7 +10,7 @@ export default function ClosingImage() {
                 src="https://pub-1953a6673e864f3488c645252f75de98.r2.dev/may/rohan%20and%20vidhi/couplephoto.jpeg"
                 alt="Rohan and Vidhi"
                 style={{
-                    position: 'absolute', inset: 0, width: '100%', height: '100%',
+                    position: 'absolute', inset: '0', width: '100%', height: '100%',
                     objectFit: 'cover', objectPosition: '30% 20%', zIndex: 1
                 }}
             />
@@ -28,7 +28,7 @@ export default function ClosingImage() {
             {/* Subtle gradient */}
             <div style={{
                 position: 'absolute', top: 0, left: 0, width: '100%', height: '40%',
-                background: 'linear-gradient(to bottom, rgba(107, 31, 44, 0.8) 0%, transparent 100%)',
+                background: 'linear-gradient(to bottom, rgba(107, 31, 44, 1) 0%, transparent 100%)',
                 zIndex: 2
             }}></div>
 
@@ -36,7 +36,7 @@ export default function ClosingImage() {
             <div style={{ position: 'relative', zIndex: 3, textAlign: 'center', color: '#fffaf8', width: '100%', padding: '0 1.5rem' }}>
                 <p style={{
                     fontFamily: "'Great Vibes', cursive",
-                    fontSize: 'clamp(3rem, 10vw, 4.5rem)',
+                    fontSize: 'clamp(2.2rem, 10vw, 3.5rem)',
                     marginBottom: '0.2rem',
                     lineHeight: 1.1,
                     textShadow: '0 4px 16px rgba(74, 20, 33, 0.6)'

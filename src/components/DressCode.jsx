@@ -8,13 +8,13 @@ function DressEntry({ photo, alt, event, date, time, attire, reverse }) {
                 <img className="dc-frame-img" src={FRAME_URL} alt="" />
             </div>
             <div className="dc-text">
-                <h3 style={{ fontFamily: 'Arial, sans-serif', fontSize: '1.125rem', color: 'var(--maroon)', marginBottom: 0, fontWeight: 400, letterSpacing: '0.02em' }}>
+                <h3 style={{ fontFamily: 'Arial, sans-serif', fontSize: '1rem', color: 'var(--maroon)', marginBottom: 0, fontWeight: 600, letterSpacing: '0.02em' }}>
                     {event}
                 </h3>
-                <p style={{ fontFamily: 'Arial, sans-serif', fontSize: '1.125rem', color: 'var(--gold-rich)', marginBottom: 0, lineHeight: 1.8, fontWeight: 400 }}>
-                    {date}<br />{time}
+                <p style={{ fontFamily: 'Arial, sans-serif', fontSize: '0.8rem', color: 'var(--gold-rich)', marginBottom: 0, lineHeight: 1.8, fontWeight: 400 }}>
+                    {date} | {time}
                 </p>
-                <p style={{ fontFamily: 'Arial, sans-serif', fontSize: '1.125rem', color: 'var(--text-dark)', marginBottom: 0, lineHeight: 1.5, fontWeight: 400 }}>
+                <p style={{ fontFamily: 'Arial, sans-serif', fontSize: '0.8rem', color: 'var(--text-dark)', marginBottom: 0, lineHeight: 1.5, fontWeight: 600 }}>
                     {attire}
                 </p>
             </div>
@@ -26,14 +26,11 @@ export default function DressCode() {
     return (
         <section id="dress-code" style={{ background: '#ffffff', padding: '4rem 1rem 4rem', position: 'relative' }}>
 
-            <div className="reveal" style={{ textAlign: 'center', marginBottom: '2.8rem' }}>
+            <div className="reveal" style={{ textAlign: 'center', marginBottom: '1.8rem' }}>
                 <h2 style={{ fontFamily: "'Great Vibes', cursive", fontSize: 'clamp(2.5rem, 9vw, 4.5rem)', color: 'var(--maroon)', fontWeight: 'normal', marginBottom: '1rem', lineHeight: 1 }}>
                     Dress Code
                 </h2>
-                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem', marginBottom: '1.4rem' }}></div>
-                <p style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 'clamp(1.3rem, 3vw, 1.15rem)', color: 'var(--text-mid)', lineHeight: 1.7, maxWidth: '340px', margin: '0 auto', fontWeight: 400 }}>
-                    We kindly invite you to dress in elegant attire that reflects the style and spirit of our special day.
-                </p>
+              
             </div>
 
             <div style={{ maxWidth: '560px', margin: '0 auto', padding: '0 0.25rem' }}>
@@ -71,8 +68,21 @@ export default function DressCode() {
                     reverse={false}
                 />
 
+              
+
+
+<DressEntry
+                    photo="https://pub-1953a6673e864f3488c645252f75de98.r2.dev/may/rohan%20and%20vidhi/retronight.PNG"
+                    alt="Retro Night"
+                    event="Retro Night"
+                    date="27th June 2026"
+                    time="8 PM"
+                    attire="Retro Glam"
+                    reverse={true}
+                />
+
                 {/* Retro Night */}
-                <div className="dc-row dc-rev reveal" style={{ marginBottom: 0 }}>
+                {/* <div className="dc-row dc-rev reveal" style={{ marginBottom: 0 }}>
                     <div className="dc-frame-box">
                         <img className="dc-photo" src="https://pub-1953a6673e864f3488c645252f75de98.r2.dev/may/rohan%20and%20vidhi/retronight.PNG" alt="Retro Night" onError={e => e.target.style.display = 'none'} />
                         <img className="dc-frame-img" src={FRAME_URL} alt="" />
@@ -82,7 +92,7 @@ export default function DressCode() {
                         <p style={{ fontFamily: 'Arial, sans-serif', fontSize: '1.125rem', color: 'var(--gold-rich)', marginBottom: 0, lineHeight: 1.8, fontWeight: 400 }}>27th June 2026<br />8 PM</p>
                         <p style={{ fontFamily: 'Arial, sans-serif', fontSize: '1.125rem', color: 'var(--text-dark)', marginBottom: 0, lineHeight: 1.5, fontWeight: 400 }}>Retro Glam</p>
                     </div>
-                </div>
+                </div> */}
 
             </div>
         </section>

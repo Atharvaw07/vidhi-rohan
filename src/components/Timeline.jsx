@@ -29,8 +29,8 @@ const h4SmStyle = {
     color: 'var(--white)', margin: 0
 };
 const shimmerSpanStyle = {
-    fontFamily: "'Tenor Sans', sans-serif", fontSize: '0.75rem',
-    textTransform: 'uppercase', letterSpacing: '0.1em'
+    fontFamily: "'Tenor Sans', sans-serif", fontSize: '0.6rem',
+    textTransform: 'uppercase', letterSpacing: '0.1em',color: 'var(--gold-light)'
 };
 
 export default function Timeline() {
@@ -82,7 +82,7 @@ export default function Timeline() {
                 <JaggedDivider fill="var(--maroon)" />
             </div>
 
-            <div className="reveal" style={{ textAlign: 'center', marginBottom: '5rem' }}>
+            <div className="reveal" style={{ textAlign: 'center', marginBottom: '3rem' }}>
                 <h2 style={{
                     fontFamily: "'Great Vibes', cursive",
                     fontSize: 'clamp(2.5rem, 10vw, 5.5rem)',
@@ -95,7 +95,7 @@ export default function Timeline() {
 
             {/* Timeline Container */}
             <div id="timeline-container"
-                style={{ maxWidth: '900px', margin: '0 auto', position: 'relative', padding: '40px 20px' }}>
+                style={{ maxWidth: '900px', margin: '0 auto', position: 'relative', padding: '40px 6px' }}>
 
                 {/* Central Vertical Line */}
                 <div id="timeline-line"
@@ -123,7 +123,7 @@ export default function Timeline() {
                 <div className="timeline-day-group" style={{ marginBottom: '100px' }}>
                     <div style={{ textAlign: 'center', marginBottom: '60px' }}>
                         <span style={{ fontFamily: "'Cinzel', serif", fontSize: '0.9rem', letterSpacing: '0.3em', color: 'var(--gold-light)', display: 'block', marginBottom: '0.5rem' }}>Friday</span>
-                        <h3 style={{ fontFamily: "'Cinzel', serif", fontSize: '1.2rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'var(--white)', background: 'var(--maroon)', display: 'inline-block', padding: '0 30px', position: 'relative', zIndex: 2 }}>
+                        <h3 style={{ fontFamily: "'Cinzel', serif", fontSize: '1.2rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'var(--white)', background: 'var(--maroon)', display: 'inline-block', position: 'relative', zIndex: 2 }}>
                             Day 1: 26th June
                         </h3>
                     </div>
@@ -147,7 +147,7 @@ export default function Timeline() {
                             <div className="entry-marker" style={{ ...entryMarkerStyle, boxShadow: 'none' }}></div>
                             <div className="entry-content" style={entryContentStyle}>
                                 <h4 style={h4SmStyle}>
-                                    Mehendi Muse - <span className="shimmer-gold" style={shimmerSpanStyle}>Henna &amp; Hi Tea</span>
+                                    Mehendi Muse - <span style={shimmerSpanStyle}>Henna &amp; Hi Tea</span>
                                 </h4>
                             </div>
                         </div>
@@ -156,7 +156,7 @@ export default function Timeline() {
                             <div className="entry-marker" style={{ ...entryMarkerStyle, boxShadow: 'none' }}></div>
                             <div className="entry-content" style={entryContentStyle}>
                                 <h4 style={h4SmStyle}>
-                                    The First Toast - <span className="shimmer-gold" style={shimmerSpanStyle}>Cocktails &amp; Ring Ceremony</span>
+                                    The First Toast - <span style={shimmerSpanStyle} >Cocktails &amp; Ring Ceremony</span>
                                 </h4>
                             </div>
                         </div>
@@ -167,7 +167,7 @@ export default function Timeline() {
                 <div className="timeline-day-group" style={{ marginBottom: '100px' }}>
                     <div style={{ textAlign: 'center', marginBottom: '60px' }}>
                         <span style={{ fontFamily: "'Cinzel', serif", fontSize: '0.9rem', letterSpacing: '0.3em', color: 'var(--gold-light)', display: 'block', marginBottom: '0.5rem' }}>Saturday</span>
-                        <h3 style={{ fontFamily: "'Cinzel', serif", fontSize: '1.2rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'var(--white)', background: 'var(--maroon)', display: 'inline-block', padding: '0 30px', position: 'relative', zIndex: 2 }}>
+                        <h3 style={{ fontFamily: "'Cinzel', serif", fontSize: '1.2rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'var(--white)', background: 'var(--maroon)', display: 'inline-block',position: 'relative', zIndex: 2 }}>
                             Day 2: 27th June
                         </h3>
                     </div>
@@ -177,7 +177,7 @@ export default function Timeline() {
                             <div className="entry-marker" style={{ ...entryMarkerStyle, boxShadow: 'none' }}></div>
                             <div className="entry-content" style={entryContentStyle}>
                                 <h4 style={h4SmStyle}>
-                                    Sunrise Start - <span className="shimmer-gold" style={shimmerSpanStyle}>Breakfast</span>
+                                    Sunrise Start - <span style={shimmerSpanStyle}>Breakfast</span>
                                 </h4>
                             </div>
                         </div>
@@ -186,7 +186,7 @@ export default function Timeline() {
                             <div className="entry-marker" style={{ ...entryMarkerStyle, boxShadow: 'none' }}></div>
                             <div className="entry-content" style={entryContentStyle}>
                                 <h4 style={h4SmStyle}>
-                                    Midday Mingle - <span className="shimmer-gold" style={shimmerSpanStyle}>Lunch</span>
+                                    Midday Mingle - <span style={shimmerSpanStyle}>Lunch</span>
                                 </h4>
                             </div>
                         </div>
@@ -195,7 +195,7 @@ export default function Timeline() {
                             <div className="entry-marker" style={{ ...entryMarkerStyle, boxShadow: 'none' }}></div>
                             <div className="entry-content" style={entryContentStyle}>
                                 <h4 style={h4SmStyle}>
-                                    Sacred Steps - <span className="shimmer-gold" style={shimmerSpanStyle}>Departure to Gurdwara</span>
+                                    Sacred Steps - <span style={shimmerSpanStyle}>Departure to Gurdwara</span>
                                 </h4>
                             </div>
                         </div>
@@ -204,7 +204,7 @@ export default function Timeline() {
                             <div className="entry-marker" style={{ ...entryMarkerStyle, boxShadow: 'none' }}></div>
                             <div className="entry-content" style={entryContentStyle}>
                                 <h4 style={h4SmStyle}>
-                                    Anand Karaj - <span className="shimmer-gold" style={shimmerSpanStyle}>The Wedding Ceremony</span>
+                                    Anand Karaj - <span style={shimmerSpanStyle}>The Wedding Ceremony</span>
                                 </h4>
                             </div>
                         </div>
@@ -213,7 +213,7 @@ export default function Timeline() {
                             <div className="entry-marker" style={{ ...entryMarkerStyle, boxShadow: 'none' }}></div>
                             <div className="entry-content" style={entryContentStyle}>
                                 <h4 style={h4SmStyle}>
-                                    Varmala - <span className="shimmer-gold" style={shimmerSpanStyle}>Exchange of Garlands</span>
+                                    Varmala - <span style={shimmerSpanStyle}>Exchange of Garlands</span>
                                 </h4>
                             </div>
                         </div>
@@ -222,7 +222,7 @@ export default function Timeline() {
                             <div className="entry-marker" style={{ ...entryMarkerStyle, boxShadow: 'none' }}></div>
                             <div className="entry-content" style={entryContentStyle}>
                                 <h4 style={h4SmStyle}>
-                                    Retro Night - <span className="shimmer-gold" style={shimmerSpanStyle}>Farewell Dinner</span>
+                                    Retro Night - <span style={shimmerSpanStyle}>Farewell Dinner</span>
                                 </h4>
                             </div>
                         </div>
@@ -233,7 +233,7 @@ export default function Timeline() {
                 <div className="timeline-day-group" style={{ marginBottom: '60px' }}>
                     <div style={{ textAlign: 'center', marginBottom: '60px' }}>
                         <span style={{ fontFamily: "'Cinzel', serif", fontSize: '0.9rem', letterSpacing: '0.3em', color: 'var(--gold-light)', display: 'block', marginBottom: '0.5rem' }}>Sunday</span>
-                        <h3 style={{ fontFamily: "'Cinzel', serif", fontSize: '1.2rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'var(--white)', background: 'var(--maroon)', display: 'inline-block', padding: '0 30px', position: 'relative', zIndex: 2 }}>
+                        <h3 style={{ fontFamily: "'Cinzel', serif", fontSize: '1.2rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'var(--white)', background: 'var(--maroon)', display: 'inline-block',position: 'relative', zIndex: 2 }}>
                             Day 3: 28th June
                         </h3>
                     </div>
@@ -243,7 +243,7 @@ export default function Timeline() {
                             <div className="entry-marker" style={{ ...entryMarkerStyle, boxShadow: 'none' }}></div>
                             <div className="entry-content" style={entryContentStyle}>
                                 <h4 style={h4SmStyle}>
-                                    A Grateful Goodbye - <span className="shimmer-gold" style={shimmerSpanStyle}>Breakfast</span>
+                                    A Grateful Goodbye - <span style={shimmerSpanStyle}>Breakfast</span>
                                 </h4>
                             </div>
                         </div>

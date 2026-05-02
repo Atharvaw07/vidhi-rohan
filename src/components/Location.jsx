@@ -27,7 +27,7 @@ export default function Location() {
                         }}>
                             <p style={{ marginBottom: '1rem' }}>
                                 <strong style={{ fontFamily: "'Cinzel', serif", fontSize: '0.9rem', letterSpacing: '0.1em', color: 'var(--maroon)' }}>
-                                    Welcomhotel By ITC Hotels
+                                    Welcomhotel By ITC, Amritsar
                                 </strong><br />
                                 Ajnala Rd, Raja Sansi,Amritsar, Punjab 143101
                             </p>
@@ -51,13 +51,13 @@ export default function Location() {
                 </div>
 
                 {/* Gurdwara */}
-                <div style={{ position: 'relative', display: 'inline-block', width: '100%', marginTop: '4rem' }}>
+                <div style={{ position: 'relative', display: 'inline-block', width: '100%', marginTop: '8rem' }}>
                     <img
                         src="https://pub-1953a6673e864f3488c645252f75de98.r2.dev/may/rohan%20and%20vidhi/mandir.jpeg"
                         alt="Gurdwara Location"
                         style={{ width: '100%', height: 'auto', display: 'block' }}
                     />
-                    <div style={{ position: 'absolute', top: '-58%', left: 0, width: '100%' }}>
+                    <div style={{ position: 'absolute', top: '-68%', left: 0, width: '100%',padding:'0px 31px' }}>
                         <div style={{
                             fontFamily: "'Cormorant Garamond', serif",
                             fontSize: 'clamp(1rem, 2.5vw, 1.25rem)',
@@ -71,7 +71,7 @@ export default function Location() {
                                 <strong style={{ fontFamily: "'Cinzel', serif", fontSize: '0.9rem', letterSpacing: '0.1em', color: 'var(--peacock)' }}>
                                     Gurdwara Chhevin Patashahi
                                 </strong><br />
-                                MV35+V7F, A-B Block, Gumtala Sub Urban, D - Block,<br />Ranjit Avenue, Amritsar, Punjab 143001
+                                MV35+V7F, A-B Block, Gumtala Sub Urban, D - Block,Ranjit Avenue, Amritsar, Punjab 143001
                             </p>
                             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '1rem', flexWrap: 'wrap', marginTop: '1rem' }}>
                                 <a

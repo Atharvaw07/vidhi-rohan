@@ -131,6 +131,7 @@ function App() {
                     <DressCode />
                     <ContactRSVP />
                     <RSVPForm onSuccess={() => setShowModal(true)} />
+                    
                     <ClosingImage />
                 </div>
             )}
