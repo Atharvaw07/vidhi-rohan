@@ -89,6 +89,25 @@ export default function RSVPForm({ onSuccess }) {
 
     return (
         <section id="rsvp-section" className="rsvp-section" style={{ background: 'var(--white)', padding: '5rem 1.5rem 5rem', position: 'relative' }}>
+            <div className="reveal">
+                <div style={{ maxWidth: '600px', margin: '0 auto' }}>
+                <p style={{
+                        fontFamily: "'Great Vibes', cursive",
+                        fontSize: 'clamp(2.5rem, 8vw, 3.5rem)',
+                        color: 'var(--maroon)',
+                        marginBottom: '2rem',
+                        lineHeight: 1.2,
+                         textAlign: 'center'
+                    }}>
+                       Confirm your attendance
+                    </p>
+                </div>
+            </div>
+            
+            
+            
+            
+            
             <div className="reveal" style={{ textAlign: 'center', marginBottom: '3rem' }}>
                 <p style={{ fontFamily: "'Great Vibes', cursive", fontSize: 'clamp(2.5rem, 8vw, 3.5rem)', color: 'var(--maroon)', marginBottom: '0.5rem', lineHeight: 1.2 }}>
                     RSVP
