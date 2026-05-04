@@ -22,7 +22,7 @@ export default function WelcomeMessage() {
                         padding: '0px 31px'
                     }}>
                         <p style={{ marginBottom: '1.5rem' }}>
-                            As we get ready to begin our new journey, we feel grateful for wonderful people in our lives. 
+                            As we get ready to begin our new journey, we feel grateful for the wonderful people in our lives. 
                         </p>
                         <p>
                             Your support means the world to us, and we would be honoured to have you join us celebrate our big day.
