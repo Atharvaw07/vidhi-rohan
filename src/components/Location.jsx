@@ -26,7 +26,7 @@ export default function Location() {
                             borderRadius: '10px'
                         }}>
                             <p style={{ marginBottom: '1rem' }}>
-                                <strong style={{ fontFamily: "'Cinzel', serif", fontSize: '0.9rem', letterSpacing: '0.1em', color: 'var(--maroon)' }}>
+                                <strong style={{ fontFamily: "'Cinzel', serif", fontSize: '0.9rem', letterSpacing: '0.1em', color: 'var(--gold-light)' }}>
                                     Welcomhotel By ITC, Amritsar
                                 </strong><br />
                                 Ajnala Rd, Raja Sansi,Amritsar, Punjab 143101
@@ -38,7 +38,7 @@ export default function Location() {
                                     rel="noreferrer"
                                     style={{
                                         display: 'inline-block', padding: '0.6rem 1.5rem',
-                                        background: 'var(--maroon)', color: 'white', textDecoration: 'none',
+                                        background: 'var(--maroon)', color: 'var(--gold-light)', textDecoration: 'none',
                                         fontFamily: "'Cinzel', serif", fontSize: '0.65rem', letterSpacing: '0.15em',
                                         textTransform: 'uppercase', borderRadius: '50px',
                                         boxShadow: '0 4px 12px rgba(104, 1, 31, 0.2)', transition: 'all 0.3s ease'
@@ -51,7 +51,7 @@ export default function Location() {
                 </div>
 
                 {/* Gurdwara */}
-                <div style={{ position: 'relative', display: 'inline-block', width: '100%', marginTop: '8rem' }}>
+                <div style={{ position: 'relative', display: 'inline-block', width: '100%', marginTop: '8rem',marginBottom:'5rem' }}>
                     <img
                         src="https://pub-1953a6673e864f3488c645252f75de98.r2.dev/may/rohan%20and%20vidhi/mandir.jpeg"
                         alt="Gurdwara Location"
@@ -68,7 +68,7 @@ export default function Location() {
                             width: '100%'
                         }}>
                             <p style={{ marginBottom: '1rem', marginTop: '1rem' }}>
-                                <strong style={{ fontFamily: "'Cinzel', serif", fontSize: '0.9rem', letterSpacing: '0.1em', color: 'var(--peacock)' }}>
+                                <strong style={{ fontFamily: "'Cinzel', serif", fontSize: '0.9rem', letterSpacing: '0.1em', color: 'var(--gold-light)' }}>
                                     Gurdwara Chhevin Patashahi
                                 </strong><br />
                                 MV35+V7F, A-B Block, Gumtala Sub Urban, D - Block,Ranjit Avenue, Amritsar, Punjab 143001
@@ -80,7 +80,7 @@ export default function Location() {
                                     rel="noreferrer"
                                     style={{
                                         display: 'inline-block', padding: '0.6rem 1.5rem',
-                                        background: 'var(--peacock)', color: 'white', textDecoration: 'none',
+                                        background: 'var(--maroon)', color: 'var(--gold-light)', textDecoration: 'none',
                                         fontFamily: "'Cinzel', serif", fontSize: '0.65rem', letterSpacing: '0.15em',
                                         textTransform: 'uppercase', borderRadius: '50px',
                                         boxShadow: '0 4px 12px rgba(26, 70, 57, 0.2)', transition: 'all 0.3s ease'
@@ -92,23 +92,7 @@ export default function Location() {
                     </div>
                 </div>
 
-                {/* Travel Notes */}
-                <div style={{ marginTop: '2rem', fontFamily: "'Cormorant Garamond', serif", fontSize: 'clamp(1.1rem, 2.5vw, 1.25rem)', lineHeight: 1.8, color: 'var(--text-dark)' }}>
-                    <div style={{
-                        maxWidth: '700px', margin: '0 auto', padding: '1rem 2rem',
-                        background: 'rgba(201, 150, 62, 0.04)', borderRadius: '15px',
-                        border: '1px dashed rgba(201, 150, 62, 0.3)', fontStyle: 'italic'
-                    }}>
-                        <p style={{ marginBottom: '1rem' }}>
-                            <span style={{ color: 'var(--gold-deep)', fontWeight: 'bold', marginRight: '0.5rem' }}>*</span>
-                            Guests are requested to make their own arrangements for travel to the hotel.
-                        </p>
-                        <p>
-                            <span style={{ color: 'var(--gold-deep)', fontWeight: 'bold', marginRight: '0.5rem' }}>•</span>
-                            Transportation to the Gurdwara for the Anand Karaj will be arranged from the hotel.
-                        </p>
-                    </div>
-                </div>
+                
             </div>
         </section>
     );

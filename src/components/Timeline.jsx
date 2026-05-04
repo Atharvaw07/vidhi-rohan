@@ -10,10 +10,10 @@ const timelineEntryStyle = {
 };
 const entryTimeStyle = {
     flex: 1, textAlign: 'right', paddingRight: 'clamp(40px, 8vw, 100px)',
-    fontFamily: "'Ovo', serif", fontSize: 'clamp(1.4rem, 4vw, 2rem)', color: 'var(--gold-pale)'
+    fontFamily: "'Ovo', serif", fontSize: 'clamp(1.4rem, 4vw, 2rem)', color: 'var(--gold-light)'
 };
 const entryMarkerStyle = {
-    width: '14px', height: '12px', background: 'var(--gold-pale)',
+    width: '14px', height: '12px', background: 'var(--gold-light)',
     transform: 'rotate(45deg)', zIndex: 2, flexShrink: 0,
     boxShadow: '0 0 10px rgba(232,192,122,0.4)'
 };
@@ -22,11 +22,11 @@ const entryContentStyle = {
 };
 const h4Style = {
     fontFamily: "'Cormorant Garamond', serif", fontSize: '1.2rem',
-    color: 'var(--white)', marginBottom: '0.3rem'
+    color: 'var(--gold-light)', marginBottom: '0.3rem'
 };
 const h4SmStyle = {
     fontFamily: "'Cormorant Garamond', serif", fontSize: '1.1rem',
-    color: 'var(--white)', margin: 0
+    color: 'var(--gold-light)', margin: 0
 };
 const shimmerSpanStyle = {
     fontFamily: "'Tenor Sans', sans-serif", fontSize: '0.6rem',
@@ -123,7 +123,7 @@ export default function Timeline() {
                 <div className="timeline-day-group" style={{ marginBottom: '100px' }}>
                     <div style={{ textAlign: 'center', marginBottom: '60px' }}>
                         <span style={{ fontFamily: "'Cinzel', serif", fontSize: '0.9rem', letterSpacing: '0.3em', color: 'var(--gold-light)', display: 'block', marginBottom: '0.5rem' }}>Friday</span>
-                        <h3 style={{ fontFamily: "'Cinzel', serif", fontSize: '1.2rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'var(--white)', background: 'var(--maroon)', display: 'inline-block', position: 'relative', zIndex: 2 }}>
+                        <h3 style={{ fontFamily: "'Cinzel', serif", fontSize: '1.2rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'var(--gold-light)', background: 'var(--maroon)', display: 'inline-block', position: 'relative', zIndex: 2 }}>
                             Day 1: 26th June
                         </h3>
                     </div>
@@ -167,7 +167,7 @@ export default function Timeline() {
                 <div className="timeline-day-group" style={{ marginBottom: '100px' }}>
                     <div style={{ textAlign: 'center', marginBottom: '60px' }}>
                         <span style={{ fontFamily: "'Cinzel', serif", fontSize: '0.9rem', letterSpacing: '0.3em', color: 'var(--gold-light)', display: 'block', marginBottom: '0.5rem' }}>Saturday</span>
-                        <h3 style={{ fontFamily: "'Cinzel', serif", fontSize: '1.2rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'var(--white)', background: 'var(--maroon)', display: 'inline-block',position: 'relative', zIndex: 2 }}>
+                        <h3 style={{ fontFamily: "'Cinzel', serif", fontSize: '1.2rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'var(--gold-light)', background: 'var(--maroon)', display: 'inline-block',position: 'relative', zIndex: 2 }}>
                             Day 2: 27th June
                         </h3>
                     </div>
@@ -233,7 +233,7 @@ export default function Timeline() {
                 <div className="timeline-day-group" style={{ marginBottom: '60px' }}>
                     <div style={{ textAlign: 'center', marginBottom: '60px' }}>
                         <span style={{ fontFamily: "'Cinzel', serif", fontSize: '0.9rem', letterSpacing: '0.3em', color: 'var(--gold-light)', display: 'block', marginBottom: '0.5rem' }}>Sunday</span>
-                        <h3 style={{ fontFamily: "'Cinzel', serif", fontSize: '1.2rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'var(--white)', background: 'var(--maroon)', display: 'inline-block',position: 'relative', zIndex: 2 }}>
+                        <h3 style={{ fontFamily: "'Cinzel', serif", fontSize: '1.2rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'var(--gold-light)', background: 'var(--maroon)', display: 'inline-block',position: 'relative', zIndex: 2 }}>
                             Day 3: 28th June
                         </h3>
                     </div>

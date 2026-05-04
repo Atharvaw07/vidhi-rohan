@@ -94,7 +94,7 @@ export default function RSVPForm({ onSuccess }) {
                 <p style={{
                         fontFamily: "'Great Vibes', cursive",
                         fontSize: 'clamp(2.5rem, 8vw, 3.5rem)',
-                        color: 'var(--maroon)',
+                        color: 'var(--gold-light)',
                         marginBottom: '2rem',
                         lineHeight: 1.2,
                          textAlign: 'center'
@@ -109,7 +109,7 @@ export default function RSVPForm({ onSuccess }) {
             
             
             <div className="reveal" style={{ textAlign: 'center', marginBottom: '3rem' }}>
-                <p style={{ fontFamily: "'Great Vibes', cursive", fontSize: 'clamp(2.5rem, 8vw, 3.5rem)', color: 'var(--maroon)', marginBottom: '0.5rem', lineHeight: 1.2 }}>
+                <p style={{ fontFamily: "Cinzel, serif", fontSize: 'clamp(2.5rem, 8vw, 3.5rem)', color: 'var(--gold-light)', marginBottom: '0.5rem', lineHeight: 1.2 }}>
                     RSVP
                 </p>
             </div>

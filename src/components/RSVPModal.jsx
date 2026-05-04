@@ -11,7 +11,7 @@ export default function RSVPModal({ visible, onClose }) {
                 background: 'white', padding: '3rem', borderRadius: '20px',
                 textAlign: 'center', maxWidth: '400px', width: '90%'
             }}>
-                <h3 style={{ fontFamily: "'Great Vibes', cursive", fontSize: '3rem', color: 'var(--maroon)', marginBottom: '1rem' }}>
+                <h3 style={{ fontFamily: "'Great Vibes', cursive", fontSize: '3rem', color: 'var(--gold-light)', marginBottom: '1rem' }}>
                     Thank You!
                 </h3>
                 <p style={{ fontFamily: "'Cormorant Garamond', serif", fontStyle: 'italic', color: 'var(--text-mid)', marginBottom: '2rem' }}>

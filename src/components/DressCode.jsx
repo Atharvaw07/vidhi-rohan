@@ -8,13 +8,13 @@ function DressEntry({ photo, alt, event, date, time, attire, reverse }) {
                 <img className="dc-frame-img" src={FRAME_URL} alt="" />
             </div>
             <div className="dc-text">
-                <h3 style={{ fontFamily: 'Arial, sans-serif', fontSize: '1rem', color: 'var(--maroon)', marginBottom: 0, fontWeight: 600, letterSpacing: '0.02em' }}>
+                <h3 style={{ fontFamily: 'Cinzel, serif', fontSize: '1rem', color: 'var(--gold-light)', marginBottom: 0, fontWeight: 600, letterSpacing: '0.02em',textTransform:'uppercase' }}>
                     {event}
                 </h3>
-                <p style={{ fontFamily: 'Arial, sans-serif', fontSize: '0.8rem', color: 'var(--gold-rich)', marginBottom: 0, lineHeight: 1.8, fontWeight: 400 }}>
+                <p style={{ fontFamily: 'Arial, sans-serif', fontSize: '0.8rem', color: 'var(--gold-light)', marginBottom: 0, lineHeight: 1.8, fontWeight: 400 }}>
                     {date} | {time}
                 </p>
-                <p style={{ fontFamily: 'Arial, sans-serif', fontSize: '0.8rem', color: 'var(--text-dark)', marginBottom: 0, lineHeight: 1.5, fontWeight: 600 }}>
+                <p style={{ fontFamily: 'Arial, sans-serif', fontSize: '0.8rem', color: 'var(--gold-light)', marginBottom: 0, lineHeight: 1.5, fontWeight: 600 }}>
                     {attire}
                 </p>
             </div>
@@ -27,7 +27,7 @@ export default function DressCode() {
         <section id="dress-code" style={{ background: '#ffffff', padding: '4rem 1rem 4rem', position: 'relative' }}>
 
             <div className="reveal" style={{ textAlign: 'center', marginBottom: '1.8rem' }}>
-                <h2 style={{ fontFamily: "'Great Vibes', cursive", fontSize: 'clamp(2.5rem, 9vw, 4.5rem)', color: 'var(--maroon)', fontWeight: 'normal', marginBottom: '1rem', lineHeight: 1 }}>
+                <h2 style={{ fontFamily: "'Great Vibes', cursive", fontSize: 'clamp(2.5rem, 9vw, 4.5rem)', color: 'var(--gold-light)', fontWeight: 'normal', marginBottom: '1rem', lineHeight: 1 }}>
                     Dress Code
                 </h2>
               

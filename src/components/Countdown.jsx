@@ -41,7 +41,7 @@ export default function Countdown() {
                 <h2 style={{
                     fontFamily: "'Great Vibes', cursive",
                     fontSize: 'clamp(2.5rem, 8vw, 3.5rem)',
-                    color: 'var(--maroon)',
+                    color: 'var(--gold-light)',
                     fontWeight: 'normal',
                     marginBottom: '1.5rem'
                 }}>
@@ -53,13 +53,13 @@ export default function Countdown() {
                     gap: 'clamp(0.5rem, 3vw, 2rem)', marginBottom: '1rem',
                     fontFamily: "'Ovo', serif"
                 }}>
-                    <span id="cd-days" style={{ fontSize: 'clamp(3.5rem, 12vw, 6.5rem)', color: '#333', fontWeight: 400, minWidth: '1.5ch' }}>{time.days}</span>
-                    <span style={{ fontSize: 'clamp(2rem, 8vw, 4.5rem)', color: '#333', opacity: 0.8 }}>:</span>
-                    <span id="cd-hours" style={{ fontSize: 'clamp(3.5rem, 12vw, 6.5rem)', color: '#333', fontWeight: 400, minWidth: '1.5ch' }}>{time.hours}</span>
-                    <span style={{ fontSize: 'clamp(2rem, 8vw, 4.5rem)', color: '#333', opacity: 0.8 }}>:</span>
-                    <span id="cd-mins" style={{ fontSize: 'clamp(3.5rem, 12vw, 6.5rem)', color: '#333', fontWeight: 400, minWidth: '1.5ch' }}>{time.mins}</span>
-                    <span style={{ fontSize: 'clamp(2rem, 8vw, 4.5rem)', color: '#333', opacity: 0.8 }}>:</span>
-                    <span id="cd-secs" style={{ fontSize: 'clamp(3.5rem, 12vw, 6.5rem)', color: '#333', fontWeight: 400, minWidth: '1.5ch' }}>{time.secs}</span>
+                    <span id="cd-days" style={{ fontSize: 'clamp(3.5rem, 12vw, 6.5rem)', color: 'var(--gold-light)', fontWeight: 400, minWidth: '1.5ch' }}>{time.days}</span>
+                    <span style={{ fontSize: 'clamp(2rem, 8vw, 4.5rem)', color: 'var(--gold-light)', opacity: 0.8 }}>:</span>
+                    <span id="cd-hours" style={{ fontSize: 'clamp(3.5rem, 12vw, 6.5rem)', color: 'var(--gold-light)', fontWeight: 400, minWidth: '1.5ch' }}>{time.hours}</span>
+                    <span style={{ fontSize: 'clamp(2rem, 8vw, 4.5rem)', color: 'var(--gold-light)', opacity: 0.8 }}>:</span>
+                    <span id="cd-mins" style={{ fontSize: 'clamp(3.5rem, 12vw, 6.5rem)', color: 'var(--gold-light)', fontWeight: 400, minWidth: '1.5ch' }}>{time.mins}</span>
+                    <span style={{ fontSize: 'clamp(2rem, 8vw, 4.5rem)', color: 'var(--gold-light)', opacity: 0.8 }}>:</span>
+                    <span id="cd-secs" style={{ fontSize: 'clamp(3.5rem, 12vw, 6.5rem)', color: 'var(--gold-light)', fontWeight: 400, minWidth: '1.5ch' }}>{time.secs}</span>
                 </div>
 
                 <div style={{
@@ -67,7 +67,7 @@ export default function Countdown() {
                     gap: 'clamp(1.5rem, 8vw, 4.8rem)',
                     fontFamily: "'Cormorant Garamond', serif",
                     fontSize: 'clamp(1.2rem, 3.5vw, 1.4rem)',
-                    color: '#666',
+                    color: 'var(--gold-light)',
                     marginTop: '-0.5rem'
                 }}>
                     <span style={{ minWidth: '4rem', textAlign: 'center' }}>Days</span>

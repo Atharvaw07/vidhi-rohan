@@ -127,8 +127,9 @@ function App() {
                     <WelcomeMessage />
                     <Countdown />
                     <Timeline />
-                    <Location />
                     <DressCode />
+
+                    <Location />
                     <ContactRSVP />
                     <RSVPForm onSuccess={() => setShowModal(true)} />
                     

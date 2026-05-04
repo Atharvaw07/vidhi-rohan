@@ -9,7 +9,7 @@ export default function ClosingImage() {
                 width: '100%',
                 padding: '2.8rem 1.5rem 0.2rem',
                 textAlign: 'center',
-                color: '#fffaf8'
+                color: 'var(--gold-light)'
             }}>
                 <p style={{
                     fontFamily: "'Great Vibes', cursive",

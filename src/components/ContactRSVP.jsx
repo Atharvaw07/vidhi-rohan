@@ -13,10 +13,10 @@ export default function ContactRSVP() {
 
             <div className="reveal">
                 <div style={{ maxWidth: '600px', margin: '0 auto' }}>
-                    <p style={{ fontFamily: "'Great Vibes', cursive", fontSize: 'clamp(2.5rem, 8vw, 3.5rem)', color: '#fffaf8', marginBottom: '1rem', lineHeight: 1.2 }}>
+                    <p style={{ fontFamily: "'Great Vibes', cursive", fontSize: 'clamp(2.5rem, 8vw, 3.5rem)', color: 'var(--gold-light)', marginBottom: '1rem', lineHeight: 1.2 }}>
                         Details
                     </p>
-                    <div style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 'clamp(1.1rem, 4vw, 1.4rem)', lineHeight: 1.6, color: '#fffaf8', fontWeight: 400 }}>
+                    <div style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 'clamp(1.1rem, 4vw, 1.4rem)', lineHeight: 1.6, color: 'var(--gold-light)', fontWeight: 400 }}>
                         <p style={{ marginBottom: '2rem' }}>
                             For additional information and queries feel free to contact
                         </p>

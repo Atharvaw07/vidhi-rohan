@@ -7,7 +7,7 @@ export default function WelcomeMessage() {
                     <p style={{
                         fontFamily: "'Great Vibes', cursive",
                         fontSize: 'clamp(2.1rem, 8vw, 3.5rem)',
-                        color: '#fffaf8',
+                        color: 'var(--gold-light)',
                         marginBottom: '1rem',
                         lineHeight: 1.2
                     }}>
@@ -17,7 +17,7 @@ export default function WelcomeMessage() {
                         fontFamily: "'Cormorant Garamond', serif",
                         fontSize: 'clamp(1.1rem, 4vw, 1.4rem)',
                         lineHeight: 1.6,
-                        color: '#fffaf8',
+                        color: 'var(--gold-light)',
                         fontWeight: 400,
                         padding: '0px 31px'
                     }}>
