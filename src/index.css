@@ -449,14 +449,41 @@ img.lazy-image.loaded {
     DRESS CODE SECTION
 ============================================================ */
 
+/* Pendulum hang: swings a few times then settles to rest */
+@keyframes dc-hang {
+    0%   { transform: rotate(0deg)    translateY(0px);  }
+    20%  { transform: rotate(-4deg)   translateY(-4px); }
+    40%  { transform: rotate(0deg)    translateY(0px);  }
+    60%  { transform: rotate(4deg)    translateY(-4px); }
+    80%  { transform: rotate(0deg)    translateY(0px);  }
+    90%  { transform: rotate(-1.5deg) translateY(-1px); }
+    100% { transform: rotate(0deg)    translateY(0px);  }
+}
+
 /* Portrait frame box: ornate transparent frame PNG over photo
     Frame source: 384 × 456 px (aspect 384/456 ≈ 0.842) */
 .dc-frame-box {
     position: relative;
     flex-shrink: 0;
-    /* width: clamp(190px, 52vw, 260px); */
     width: clamp(150px, 45vw, 220px);
     aspect-ratio: 384 / 456;
+    /* Pivot from the top-center like a frame hanging on a nail */
+    transform-origin: top center;
+    /* Default: no animation until revealed */
+    animation: none;
+}
+
+/* Activate the hanging swing via JS-added class */
+.dc-frame-box.dc-hang {
+    animation: dc-hang 2.8s ease-in-out 1;
+    animation-fill-mode: forwards;
+}
+
+/* Alternate (reversed) rows swing offset & opposite direction */
+.dc-row.dc-rev .dc-frame-box.dc-hang {
+    animation: dc-hang 3s ease-in-out 1;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
 }
 
 /* Photo sits inside the frame's inner transparent window.

@@ -20,7 +20,7 @@ export default function ContactRSVP() {
                         <p style={{ marginBottom: '2rem' }}>
                             For additional information and queries feel free to contact
                         </p>
-                        <div style={{ marginBottom: '2.5rem', fontFamily: "'Cinzel', serif", fontSize: 'clamp(1.1rem, 3vw, 1.3rem)', color: 'var(--gold-pale)', letterSpacing: '0.05em' }}>
+                        <div style={{ marginBottom: '2.5rem', fontFamily: "'Cinzel', serif", fontSize: 'clamp(1.1rem, 3vw, 1.3rem)', color: 'var(--gold-light)', letterSpacing: '0.05em' }}>
 
                             <p>
                                 Rahul <a href="tel:+919821313359" style={{ color: 'inherit', textDecoration: 'none' }}>+91 98213 13359</a>

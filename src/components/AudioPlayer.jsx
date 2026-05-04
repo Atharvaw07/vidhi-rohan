@@ -5,7 +5,7 @@ export default function AudioPlayer({ audioRef, audioPlaying, toggleAudio }) {
         <>
             <audio id="bg-audio" loop preload="auto" ref={audioRef}>
                 <source
-                    src="https://pub-1953a6673e864f3488c645252f75de98.r2.dev/Ashish%20%26%20Ayushi/Jashn-E-Bahaaraa%20(Instrumental%20-%20Flute)%20%5B-2w18bd-ZQ4%5D.mp3"
+                    src="https://pub-1953a6673e864f3488c645252f75de98.r2.dev/may/rohan%20and%20vidhi/WhatsApp%20Audio%202026-05-04%20at%2013.32.17.mpeg"
                     type="audio/mpeg" />
             </audio>
 

@@ -1,14 +1,37 @@
+import { useRef, useEffect } from 'react';
+
 const FRAME_URL = "https://pub-1953a6673e864f3488c645252f75de98.r2.dev/may/rohan%20and%20vidhi/Group_169.png.webp";
 
 function DressEntry({ photo, alt, event, date, time, attire, reverse }) {
+    const frameRef = useRef(null);
+
+    useEffect(() => {
+        const el = frameRef.current;
+        if (!el) return;
+
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+                if (entry.isIntersecting) {
+                    // Small delay so the GSAP fade-in starts first
+                    setTimeout(() => el.classList.add('dc-hang'), 700);
+                    observer.unobserve(el);
+                }
+            },
+            { threshold: 0.3 }
+        );
+
+        observer.observe(el);
+        return () => observer.disconnect();
+    }, []);
+
     return (
         <div className={`dc-row reveal${reverse ? ' dc-rev' : ''}`}>
-            <div className="dc-frame-box">
+            <div className="dc-frame-box" ref={frameRef}>
                 <img className="dc-photo" src={photo} alt={event} onError={e => e.target.style.display = 'none'} />
                 <img className="dc-frame-img" src={FRAME_URL} alt="" />
             </div>
             <div className="dc-text">
-                <h3 style={{ fontFamily: 'Cinzel, serif', fontSize: '1rem', color: 'var(--gold-light)', marginBottom: 0, fontWeight: 600, letterSpacing: '0.02em',textTransform:'uppercase' }}>
+                <h3 style={{ fontFamily: 'Cinzel, serif', fontSize: '0.9rem', color: 'var(--gold-light)', marginBottom: 0, fontWeight: 600, letterSpacing: '0.2em',textTransform:'uppercase' }}>
                     {event}
                 </h3>
                 <p style={{ fontFamily: 'Arial, sans-serif', fontSize: '0.8rem', color: 'var(--gold-light)', marginBottom: 0, lineHeight: 1.8, fontWeight: 400 }}>
@@ -95,6 +118,10 @@ export default function DressCode() {
                 </div> */}
 
             </div>
+
+            <div style={{ position: 'absolute', bottom: -100, left: 0, width: '100%', height: '175px', overflow: 'hidden' }}>
+    <img src="flowersdetails.png" alt="" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+</div>
         </section>
     );
 }
