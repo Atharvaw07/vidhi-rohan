@@ -92,13 +92,15 @@ export default function RSVPForm({ onSuccess }) {
             <div className="reveal">
                 <div style={{ maxWidth: '600px', margin: '0 auto' }}>
                 <p style={{
-                        fontFamily: "'Great Vibes', cursive",
-                        fontSize: 'clamp(2.5rem, 8vw, 3.5rem)',
+                        fontFamily: "'Cormorant Garamond', serif",
+                        fontSize: 'clamp(1.4rem, 4vw, 2.5rem)',
                         color: 'var(--gold-light)',
                         marginBottom: '2rem',
                         lineHeight: 1.2,
                         textAlign: 'center',
-                        textShadow: '0 3px 12px rgba(0,0,0,0.18), 0 1px 3px rgba(0,0,0,0.10)'
+                        textShadow: '0 3px 12px rgba(0,0,0,0.18), 0 1px 3px rgba(0,0,0,0.10)',
+                        textTransform: 'uppercase',
+                        whiteSpace: 'nowrap'
                     }}>
                        Confirm your attendance
                     </p>
