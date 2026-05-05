@@ -31,7 +31,7 @@ export default function EntryGate({ fading, audioRef, onReveal, setAudioPlaying 
                 onError={onReveal}
             >
                 <source
-                    src="https://pub-1953a6673e864f3488c645252f75de98.r2.dev/may/rohan%20and%20vidhi/Best%20Entry%20Video%20(31).mp4"
+                    src="https://pub-1953a6673e864f3488c645252f75de98.r2.dev/may/rohan%20and%20vidhi/Best%20Entry%20Video%20(31).mp4#t=0.1"
                     type="video/mp4"
                 />
             </video>
