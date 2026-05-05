@@ -97,7 +97,8 @@ export default function RSVPForm({ onSuccess }) {
                         color: 'var(--gold-light)',
                         marginBottom: '2rem',
                         lineHeight: 1.2,
-                         textAlign: 'center'
+                        textAlign: 'center',
+                        textShadow: '0 3px 12px rgba(0,0,0,0.18), 0 1px 3px rgba(0,0,0,0.10)'
                     }}>
                        Confirm your attendance
                     </p>
@@ -109,7 +110,7 @@ export default function RSVPForm({ onSuccess }) {
             
             
             <div className="reveal" style={{ textAlign: 'center', marginBottom: '3rem' }}>
-                <p style={{ fontFamily: "Cinzel, serif", fontSize: 'clamp(2.5rem, 8vw, 3.5rem)', color: 'var(--gold-light)', marginBottom: '0.5rem', lineHeight: 1.2 }}>
+                <p style={{ fontFamily: "Cinzel, serif", fontSize: 'clamp(2.5rem, 8vw, 3.5rem)', color: 'var(--gold-light)', marginBottom: '0.5rem', lineHeight: 1.2, textShadow: '0 3px 12px rgba(0,0,0,0.18), 0 1px 3px rgba(0,0,0,0.10)' }}>
                     RSVP
                 </p>
             </div>

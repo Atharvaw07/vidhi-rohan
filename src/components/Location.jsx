@@ -12,7 +12,7 @@ export default function Location() {
                     />
                     <div style={{ position: 'absolute', top: '-8%', left: 0, width: '100%', padding: '0 5%' }}>
                         <h2 className="section-heading"
-                            style={{ marginBottom: '0.5rem', fontSize: 'clamp(2.5rem, 5vw, 3.5rem)', fontWeight: 500 }}>
+                            style={{ marginBottom: '0.5rem', fontSize: 'clamp(2.5rem, 5vw, 3.5rem)', fontWeight: 500, textShadow: '0 3px 12px rgba(0,0,0,0.18), 0 1px 3px rgba(0,0,0,0.10)' }}>
                             Location
                         </h2>
                         <div style={{
@@ -25,8 +25,8 @@ export default function Location() {
                             display: 'inline-block',
                             borderRadius: '10px'
                         }}>
-                            <p style={{ marginBottom: '1rem' }}>
-                                <strong style={{ fontFamily: "'Cinzel', serif", fontSize: '0.9rem', letterSpacing: '0.1em', color: 'var(--gold-light)' }}>
+                            <p style={{ marginBottom: '1rem', textShadow: '0 1px 5px rgba(0,0,0,0.10)' }}>
+                                <strong style={{ fontFamily: "'Cinzel', serif", fontSize: '0.9rem', letterSpacing: '0.1em', color: 'var(--gold-light)', textShadow: '0 2px 8px rgba(0,0,0,0.16)' }}>
                                     Welcomhotel By ITC, Amritsar
                                 </strong><br />
                                 Ajnala Rd, Raja Sansi,Amritsar, Punjab 143101
@@ -67,8 +67,8 @@ export default function Location() {
                             display: 'inline-block',
                             width: '100%'
                         }}>
-                            <p style={{ marginBottom: '1rem', marginTop: '1rem' }}>
-                                <strong style={{ fontFamily: "'Cinzel', serif", fontSize: '0.9rem', letterSpacing: '0.1em', color: 'var(--gold-light)' }}>
+                            <p style={{ marginBottom: '1rem', marginTop: '1rem', textShadow: '0 1px 5px rgba(0,0,0,0.10)' }}>
+                                <strong style={{ fontFamily: "'Cinzel', serif", fontSize: '0.9rem', letterSpacing: '0.1em', color: 'var(--gold-light)', textShadow: '0 2px 8px rgba(0,0,0,0.16)' }}>
                                     Gurdwara Chhevin Patashahi
                                 </strong><br />
                                 MV35+V7F, A-B Block, Gumtala Sub Urban, D - Block,Ranjit Avenue, Amritsar, Punjab 143001
