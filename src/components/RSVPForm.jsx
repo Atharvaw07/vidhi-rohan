@@ -98,7 +98,6 @@ export default function RSVPForm({ onSuccess }) {
                         marginBottom: '2rem',
                         lineHeight: 1.2,
                         textAlign: 'center',
-                        textTransform: 'uppercase',
                         textShadow: '0 3px 12px rgba(0,0,0,0.18), 0 1px 3px rgba(0,0,0,0.10)'
                     }}>
                        Confirm your attendance
