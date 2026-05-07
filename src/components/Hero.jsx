@@ -12,7 +12,7 @@ export default function Hero({ heroVisible }) {
                 preload="auto"
                 alt="Vidhi &amp; Rohan Hero"
             />
-            <div className="hero-overlay"></div>
+            
             <div className="hero-content">
                 {/* Names and Date are already in the image */}
             </div>
