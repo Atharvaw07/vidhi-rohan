@@ -257,7 +257,7 @@ img.lazy-image.loaded {
     contain: layout style;
 }
 
-#hero-img {
+#hero-video {
     position: absolute;
     inset: 0;
     width: 100%;
@@ -271,7 +271,7 @@ img.lazy-image.loaded {
     transform: translateZ(0);
 }
 
-#hero-img.visible {
+#hero-video.visible {
     opacity: 1;
 }
 

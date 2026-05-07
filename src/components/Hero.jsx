@@ -1,10 +1,15 @@
 export default function Hero({ heroVisible }) {
     return (
         <section id="hero">
-            <img
-                id="hero-img"
+            <video
+                id="hero-video"
                 className={heroVisible ? 'visible' : ''}
-                src="https://pub-1953a6673e864f3488c645252f75de98.r2.dev/may/rohan%20and%20vidhi/WhatsApp%20Image%202026-05-01%20at%2016.49.13.jpeg"
+                src="https://pub-1953a6673e864f3488c645252f75de98.r2.dev/may/rohan%20and%20vidhi/Untitled%20design.mp4"
+                autoPlay
+                muted
+                loop
+                playsInline
+                preload="auto"
                 alt="Vidhi &amp; Rohan Hero"
             />
             <div className="hero-overlay"></div>
