@@ -547,6 +547,20 @@ img.lazy-image.loaded {
     max-width: 540px;
     margin: 0 auto;
 }
+.rsvp-form .form-card-title,
+.rsvp-form .field-label,
+.rsvp-form .field-input,
+.rsvp-form .submit-btn,
+.rsvp-form .field-group > p {
+    text-shadow:
+        0 3px 12px rgba(0, 0, 0, 0.18),
+        0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.rsvp-form .field-input::placeholder {
+    text-shadow:
+        0 3px 12px rgba(0, 0, 0, 0.18),
+        0 1px 3px rgba(0, 0, 0, 0.1);
+}
 .form-card {
     background: var(--white);
     border: 1px solid var(--border);
