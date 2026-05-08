@@ -4,7 +4,7 @@ export default function Hero({ heroVisible }) {
             <video
                 id="hero-video"
                 className={heroVisible ? 'visible' : ''}
-                src="https://pub-1953a6673e864f3488c645252f75de98.r2.dev/may/rohan%20and%20vidhi/Untitled%20design.mp4"
+                src="https://pub-1953a6673e864f3488c645252f75de98.r2.dev/may/rohan%20and%20vidhi/Vidhi%20%26%20Rohan.mp4"
                 autoPlay
                 muted
                 loop
