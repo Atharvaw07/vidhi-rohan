@@ -16,6 +16,8 @@
     --gold: #C9963E;
     --gold-rich: #B5871F;
     --gold-light: #E8C07A;
+    --gold-light2:rgb(212, 161, 72);
+
     --gold-pale: #F5E4C0;
     --gold-deep: #8C6914;
 
@@ -575,7 +577,7 @@ img.lazy-image.loaded {
     font-style: italic;
     font-size: 1.5rem;
     font-weight: 400;
-    color: var(--gold-light);
+    color: var(--gold-light2);
     margin-bottom: 0.5rem;
 }
 .field-label {
@@ -584,7 +586,7 @@ img.lazy-image.loaded {
     font-size: 0.65rem;
     letter-spacing: 0.25em;
     text-transform: uppercase;
-    color: var(--gold-light);
+    color: var(--gold-light2);
     display: block;
     margin-bottom: 0.45rem;
 }
