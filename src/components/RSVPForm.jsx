@@ -63,7 +63,7 @@ export default function RSVPForm({ onSuccess }) {
             data.clientId = 'rohan-vidhi-wedding';
 
             // 3. Send to Render backend
-            const res = await fetch('https://wedding-backend-k67l.onrender.com/api/rsvp', {
+            const res = await fetch('https://wedding-backend-production-54c0.up.railway.app/api/rsvp', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(data),
